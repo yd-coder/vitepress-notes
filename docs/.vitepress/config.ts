@@ -55,9 +55,7 @@ export default defineConfig({
     logo: '/logo.png',
     siteTitle: '屿东的Web前端笔记',
     outline: 3,
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
-    ],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/yd-coder' }],
     nav,
     sidebar,
   },
