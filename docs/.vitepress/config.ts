@@ -49,7 +49,7 @@ export default defineConfig({
   title: '我的笔记',
   description: '屿东的Web前端笔记',
   lang: 'cn-ZH',
-  base: '/',
+  base: '/vitepress-notes/',
   lastUpdated: true,
   themeConfig: {
     logo: '/logo.png',
