@@ -6,7 +6,7 @@ hero:
   text: A web note for front-end development.
   tagline: Always be positive...
   image:
-    src: /logo.jpg
+    src: /vitepress-notes/logo.jpg
     alt: logo
   actions:
     - theme: brand
