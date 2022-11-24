@@ -22,6 +22,8 @@ const sidebar: DefaultTheme.Sidebar = {
   '/notes': [
     {
       text: 'Vue笔记',
+      collapsible: true,
+      collapsed: true,
       items: [
         { text: 'Vue2', link: '/vue/vue' },
         { text: 'Vue3', link: '/vue3/vue3' },
@@ -29,6 +31,8 @@ const sidebar: DefaultTheme.Sidebar = {
     },
     {
       text: '通用业务组件',
+      collapsible: true,
+      collapsed: true,
       items: [
         { text: '通用组件 1', link: '/components/common-component1' },
         { text: '通用组件 2', link: '/components/common-component2' },
@@ -36,6 +40,8 @@ const sidebar: DefaultTheme.Sidebar = {
     },
     {
       text: '高级业务组件',
+      collapsible: true,
+      collapsed: true,
       items: [
         { text: '高级组件 1', link: '/components/pro-component1' },
         { text: '高级组件 2', link: '/components/pro-component2' },
@@ -58,5 +64,9 @@ export default defineConfig({
     socialLinks: [{ icon: 'github', link: 'https://github.com/yd-coder' }],
     nav,
     sidebar,
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2022-present yd-coder',
+    },
   },
 })
